@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityServer", "IdentityServer\IdentityServer.csproj", "{693ECB3E-72FE-4926-8AB0-FA0AEE2004D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{F7DBF98B-BD03-4BDD-BF5E-3E7534DBC2FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{2050D0E8-6E19-4B30-A7B8-1CD48CF9AB24}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{693ECB3E-72FE-4926-8AB0-FA0AEE2004D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{693ECB3E-72FE-4926-8AB0-FA0AEE2004D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{693ECB3E-72FE-4926-8AB0-FA0AEE2004D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{693ECB3E-72FE-4926-8AB0-FA0AEE2004D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7DBF98B-BD03-4BDD-BF5E-3E7534DBC2FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7DBF98B-BD03-4BDD-BF5E-3E7534DBC2FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7DBF98B-BD03-4BDD-BF5E-3E7534DBC2FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7DBF98B-BD03-4BDD-BF5E-3E7534DBC2FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2050D0E8-6E19-4B30-A7B8-1CD48CF9AB24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2050D0E8-6E19-4B30-A7B8-1CD48CF9AB24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2050D0E8-6E19-4B30-A7B8-1CD48CF9AB24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2050D0E8-6E19-4B30-A7B8-1CD48CF9AB24}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {20FB4AE7-DDC6-4262-8F93-627436B981CE}
+	EndGlobalSection
+EndGlobal
