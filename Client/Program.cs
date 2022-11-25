@@ -41,7 +41,7 @@ public class Program
         var apiClient = new HttpClient();
         apiClient.SetBearerToken(tokenResponse.AccessToken);
 
-        var response = await apiClient.GetAsync("https://localhost:6001/identity");
+        var response = await apiClient.GetAsync("https://localhost:7249/identity");
         if (!response.IsSuccessStatusCode)
         {
             Console.WriteLine(response.StatusCode);
