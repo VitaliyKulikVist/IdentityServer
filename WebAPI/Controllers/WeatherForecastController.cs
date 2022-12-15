@@ -3,6 +3,7 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using WebAPI.Entity;
 
 namespace WebAPI.Controllers;
 
@@ -13,6 +14,11 @@ public class WeatherForecastController : ControllerBase
     private static readonly string[] Summaries = new[]
     {
         "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+    };
+
+    private static readonly string[] Summaries2 = new[]
+    {
+        "Морозний", "Зміцнюючий", "Холодний", "Прохолодний", "Легкий", "Теплий", "Заспокійливий", "Гарячий", "Духливий", "Спекучий"
     };
 
     private readonly ILogger<WeatherForecastController> _logger;
@@ -29,7 +35,7 @@ public class WeatherForecastController : ControllerBase
         {
             Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
             TemperatureC = Random.Shared.Next(-20, 55),
-            Summary = Summaries[Random.Shared.Next(Summaries.Length)]
+            Summary = Summaries2[Random.Shared.Next(Summaries2.Length)]
         })
         .ToArray();
     }

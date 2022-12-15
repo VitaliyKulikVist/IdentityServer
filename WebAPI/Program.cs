@@ -26,14 +26,14 @@ public class Program
                     };
                 });
 
-        builder.Services.AddAuthorization(options =>
-        {
-            options.AddPolicy("ApiScope", policy =>
-            {
-                policy.RequireAuthenticatedUser();
-                policy.RequireClaim("scope", "api1");
-            });
-        });
+        //builder.Services.AddAuthorization(options =>
+        //{
+        //    options.AddPolicy("ApiScope", policy =>
+        //    {
+        //        policy.RequireAuthenticatedUser();
+        //        policy.RequireClaim("scope", "api1");
+        //    });
+        //});
 
         var app = builder.Build();
 
